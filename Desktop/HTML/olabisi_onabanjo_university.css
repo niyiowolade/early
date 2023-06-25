@@ -1,0 +1,13 @@
+#title {
+	border: 10;
+}
+#introduction{
+	color: black; background color: greenyellow;
+}
+#div{
+	background-color: greenyellow;
+	color: blueviolet;
+	padding: 20px;
+	text-align: justify;
+	font: 2;
+}

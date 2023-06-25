@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML form</title>
+</head>
+<body>
+	<header><h1>Champion.com</h1></header>
+	<main>
+		<h2>Registration section</h2>
+		<form action="process.php" method="POST">
+			<fieldset>
+				<legend>Registration form</legend>
+				<label for="first_name">First name</label>
+				<input type="text" id="first_name" name="first_name" placeholder="Peter">
+				<br><br>
+				<label for="last_name">Last name</label>
+				<input type="text" id="last_name" name="last_name" placeholder="Baba">
+				<br><br>
+				<label for="phone_number">Number</label>
+				<input type="number" id="phone_number" name="phone_number" autofocus>
+				<br><br>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required placeholder="abc@xyz.com">
+				<br><br>
+				<label for="dob">D.O.B</label>
+				<input type="date" id="dob" name="dob" placeholder="24/01/2000">
+				<br><br>
+				<label for="favourite_color">Color</label>
+				<input type="color" id="favourite_color" name="color">
+				<br><br>
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" required>
+				<br><br>
+				<label for="profile_picture">Profile picture</label>
+				<input type="file" id="profile_picture" name="profile_picture">
+				<br><br
+				<label for="male">Male</label>
+				<input type="radio" id="male" name="gender">
+				<label for="female">Female</label>
+				<input type="radio" id="female" name="gender">
+				<label for="others">Others</label>
+				<input type="radio" id="others" name="gender">
+				<br><br>
+				<label for="solidity">solidity:</label>
+				<input type="checkbox" id="solidity" name="programming">
+				<label for="JavaScript">JavaScript:</label>
+				<input type="checkbox" id="JavaScript" name="programming">
+				<label for="php">PHP:</label>
+				<input type="checkbox" id="php" name="programming">
+
+				<input type="submit">	
+			</fieldset>
+		</form>
+
+		<h2>Login section</h2>
+		<form>
+			<fieldset>
+				<legend>Login section</legend>
+				<label for email>Email</label>
+				<input type="email" id="email" name="email" required>
+				<label for="password"></label>
+				Password:<input type="password" id="password" required>
+
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+	2023
+	</footer>
+</body>
+</html>
